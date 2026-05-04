@@ -1,0 +1,7 @@
+{
+  "languages": ["C", "C++", "C#", "Java", "JavaScript", "Ruby", "PHP", "VB", "VBA", "Delphi", "SQL", "Bash"],
+  "databases": ["Oracle", "PostgreSQL", "SQL Server", "Informix", "MySQL", "MongoDB", "Cassandra"],
+  "environments": ["Windows", "Linux", "UNIX", "Solaris", "Red Hat Linux", "CentOS", "MS-DOS", "Embedded"],
+  "processes": ["要件定義", "基本設計", "詳細設計", "実装", "単体テスト", "結合テスト", "総合テスト", "リリース対応", "運用保守", "データ移行"],
+  "domains": ["医薬品業界EDI", "製造業工程制御", "金融系基幹システム", "通信データ処理", "組込み制御", "AI/Web学習"]
+}
