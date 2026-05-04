@@ -31,7 +31,8 @@ h1 { font-size: clamp(3.2rem, 8vw, 6rem); line-height: 1; margin: 0 0 24px; }
 h2 { font-size: clamp(2rem, 4vw, 3.4rem); line-height: 1.22; margin: 0; }
 h3 { margin-top: 0; line-height: 1.45; }
 .lead { font-size: clamp(1.45rem, 2.6vw, 2.35rem); font-weight: 750; line-height: 1.5; margin: 0 0 18px; }
-.hero-text, .card p, .tags, .timeline p, .section > p, dd { color: #667085; }
+.lead-small { font-size: clamp(1.18rem, 2vw, 1.45rem); font-weight: 700; line-height: 1.65; margin-top: 0; }
+.hero-text, .card p, .tags, .timeline p, .section > p, dd, .featured-summary p, .feature-item p { color: #667085; }
 .hero-text { max-width: 850px; }
 .hero-points { display: flex; flex-wrap: wrap; gap: 10px; padding: 0; margin: 24px 0 0; list-style: none; }
 .hero-points li { border: 1px solid #315c72; color: #315c72; border-radius: 999px; padding: 6px 12px; font-weight: 700; font-size: 0.9rem; background: #fff; }
@@ -48,6 +49,12 @@ h3 { margin-top: 0; line-height: 1.45; }
 .project dl { margin: 18px 0 0; }
 .project dt { margin-top: 14px; font-weight: 800; color: #1f3f50; }
 .project dd { margin: 4px 0 0; }
+.featured-project { background: #fff; border-block: 1px solid #ded7cc; }
+.featured-card { display: grid; gap: 28px; }
+.featured-summary { max-width: 980px; }
+.service-note { margin-top: 18px; font-size: 0.92rem; }
+.feature-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.feature-item { border: 1px solid #ded7cc; border-radius: 20px; padding: 22px; background: #f6f3ee; }
 .skill-groups { display: grid; gap: 24px; }
 .timeline { display: grid; gap: 18px; max-width: 920px; }
 .timeline > div { padding-left: 18px; border-left: 4px solid #315c72; }
@@ -57,8 +64,8 @@ h3 { margin-top: 0; line-height: 1.45; }
   body { font-size: 16px; line-height: 1.9; }
   .site-header { align-items: flex-start; flex-direction: column; position: static; }
   .site-nav { gap: 12px; font-size: 0.92rem; }
-  .grid-3, .grid-2 { grid-template-columns: 1fr; }
+  .grid-3, .grid-2, .feature-grid { grid-template-columns: 1fr; }
   .section { padding: 64px 7vw; }
   .hero { min-height: auto; padding-top: 72px; }
-  .card { padding: 24px; }
+  .card, .feature-item { padding: 24px; }
 }
