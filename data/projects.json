@@ -1,5 +1,14 @@
 [
   {
+    "title": "Q-Scout for Spring",
+    "summary": "Spring Boot / Spring Framework 向けに、コード品質、設計健全性、Springベストプラクティス準拠度を診断し、Markdownレポートで可視化する制作物。",
+    "technologies": ["Java", "Spring Boot", "Maven", "Docker", "Markdown", "Render"],
+    "links": {
+      "demo": "https://q-scout-for-spring.onrender.com/",
+      "repository": "https://github.com/yamaguchiyoshishigeai-create/Q-Scout-for-Spring"
+    }
+  },
+  {
     "title": "医薬品業界向けEDI・受発注データ連携",
     "summary": "業界データ交換システムの追加開発、システム更改、データ移行、移行用スクリプト作成を担当。",
     "technologies": ["Java", "JavaScript", "Oracle", "Bash", "Red Hat Linux"]
