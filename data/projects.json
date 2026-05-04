@@ -1,0 +1,32 @@
+[
+  {
+    "title": "医薬品業界向けEDI・受発注データ連携",
+    "summary": "業界データ交換システムの追加開発、システム更改、データ移行、移行用スクリプト作成を担当。",
+    "technologies": ["Java", "JavaScript", "Oracle", "Bash", "Red Hat Linux"]
+  },
+  {
+    "title": "製造業向け工程制御・検査・解析",
+    "summary": "工程制御、検査、解析、データ収集基盤など、製造現場向けシステム群の開発を担当。",
+    "technologies": ["C#", "C++", "C", "PostgreSQL", "SQL Server"]
+  },
+  {
+    "title": "PaaSデータストア基盤",
+    "summary": "NoSQLとSQLデータベース間のアクセスドライバ開発を担当。",
+    "technologies": ["C", "PHP", "Cassandra", "MongoDB", "MySQL"]
+  },
+  {
+    "title": "金融機関向け基幹システム改修・運用支援",
+    "summary": "帳票、オンライン取引、リスク管理、運用データ診断ツールなどを支援。",
+    "technologies": ["C", "C++", "VC++", "VB", "PL/SQL", "Oracle"]
+  },
+  {
+    "title": "組込み機器向けファームウェア",
+    "summary": "オーディオ機器、HDMI-CEC制御、リモコン制御などの組込み開発を担当。",
+    "technologies": ["C", "組込みC", "マイコン環境"]
+  },
+  {
+    "title": "AI/Web学習成果物",
+    "summary": "AI×Webクリエイター領域の学習成果を今後追加予定。",
+    "technologies": ["AI Tools", "HTML", "CSS", "JavaScript"]
+  }
+]
