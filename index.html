@@ -14,6 +14,7 @@
       <a href="#profile">Profile</a>
       <a href="#strengths">Strengths</a>
       <a href="#skills">Skills</a>
+      <a href="#featured-project">Featured</a>
       <a href="#projects">Projects</a>
       <a href="#career">Career</a>
       <a href="#contact">Contact</a>
@@ -35,7 +36,7 @@
           <li>AI/Web学習</li>
         </ul>
         <div class="hero-actions">
-          <a class="button primary" href="#projects">代表プロジェクトを見る</a>
+          <a class="button primary" href="#featured-project">制作物を見る</a>
           <a class="button secondary" href="#skills">技術領域を見る</a>
         </div>
       </div>
@@ -78,7 +79,31 @@
       </div>
     </section>
 
-    <section id="projects" class="section">
+    <section id="featured-project" class="section featured-project">
+      <div class="section-heading">
+        <p class="eyebrow">Featured Project</p>
+        <h2>Q-Scout for Spring</h2>
+      </div>
+      <div class="featured-card">
+        <div class="featured-summary">
+          <p class="lead-small">Spring Boot / Spring Framework 向けのコード品質診断ツールです。設計健全性とSpringベストプラクティス準拠度をスコア化し、レビューしやすいMarkdownレポートとして可視化します。</p>
+          <p>コードレビュー品質の属人化、技術負債の見えにくさ、Spring特有の設計劣化の発見遅れを減らすことを目的に、AI APIに依存しないルールベース診断を実装しています。人間向けレポートとAI相談用Markdown入力を分けて出力できる点も特徴です。</p>
+          <div class="hero-actions">
+            <a class="button primary" href="https://q-scout-for-spring.onrender.com/">Live Demo</a>
+            <a class="button secondary" href="https://github.com/yamaguchiyoshishigeai-create/Q-Scout-for-Spring">GitHub Repository</a>
+          </div>
+          <p class="service-note">Render Freeプランで公開しているため、初回アクセス時は起動に時間がかかる場合があります。</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-item"><h3>解決する課題</h3><p>レビュー観点の属人化、技術負債の見えにくさ、Spring実装アンチパターンの発見遅れを減らします。</p></article>
+          <article class="feature-item"><h3>主な機能</h3><p>品質診断、スコアリング、Markdownレポート出力、AI相談用Markdown生成、Web UI、CLI分析フローを備えます。</p></article>
+          <article class="feature-item"><h3>技術スタック</h3><p>Java / Spring Boot / Maven / Docker / Markdown / Render</p></article>
+          <article class="feature-item"><h3>訴求点</h3><p>長年の業務システム開発経験を、品質診断・Webアプリ・AI活用前提の開発支援へ接続した制作物です。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section panel">
       <div class="section-heading">
         <p class="eyebrow">Projects</p>
         <h2>代表プロジェクト</h2>
@@ -93,7 +118,7 @@
       </div>
     </section>
 
-    <section id="career" class="section panel">
+    <section id="career" class="section">
       <div class="section-heading">
         <p class="eyebrow">Career</p>
         <h2>キャリアの流れ</h2>
@@ -106,7 +131,7 @@
       </div>
     </section>
 
-    <section id="contact" class="section contact">
+    <section id="contact" class="section contact panel">
       <div class="section-heading">
         <p class="eyebrow">Contact</p>
         <h2>お問い合わせ</h2>
