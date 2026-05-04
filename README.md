@@ -2,6 +2,8 @@
 
 山口能成の公開ポートフォリオ用リポジトリです。
 
+公開URL: https://yamaguchiyoshishigeai-create.github.io/portfolio/
+
 このリポジトリでは、長期のシステム開発経験を基盤に、AI/Web領域への再接続を示す職務経歴型ポートフォリオを管理します。
 
 ## 初期方針
