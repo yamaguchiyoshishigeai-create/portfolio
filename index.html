@@ -3,14 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>山口 能成 | Q-Scout for Spring Portfolio</title>
-  <meta name="description" content="30年以上のシステム開発経験を基盤に、Spring品質診断ツール Q-Scout for Spring を開発・公開するエンジニアポートフォリオです。">
+  <title>山口 能成 | Portfolio</title>
+  <meta name="description" content="山口能成のポートフォリオです。30年以上のシステム開発経験を基盤に、公開制作物と実務経験を整理しています。">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#top">Q-Scout Portfolio</a>
+    <a class="brand" href="#top">山口 能成 Portfolio</a>
     <nav class="site-nav" aria-label="Main navigation">
+      <a href="#works">Works</a>
       <a href="#featured-project">Q-Scout</a>
       <a href="#why">Why</a>
       <a href="#capabilities">Capabilities</a>
@@ -23,28 +24,64 @@
   <main id="top">
     <section class="hero section">
       <div class="hero-content">
-        <p class="eyebrow">Spring Quality Tool / Systems Engineer</p>
-        <h1>Q-Scout for Spring を開発・公開しています。</h1>
-        <p class="lead">30年以上の業務システム開発経験をもとに、Spring開発のレビュー品質と設計健全性を可視化するツールを制作しています。</p>
-        <p class="hero-text">山口 能成は、業務系・基幹系・組込み・DB・データ移行を横断してきたシステムエンジニアです。現在は、実務で培った品質意識とAI/Web時代の開発プロセスを接続し、Spring Boot向けコード品質診断ツール「Q-Scout for Spring」を公開しています。</p>
+        <p class="portfolio-label">山口 能成のポートフォリオ</p>
+        <p class="eyebrow">Systems Engineer / Public Works</p>
+        <h1>実務経験から、使える開発者向けツールへ。</h1>
+        <p class="lead">30年以上の業務システム開発経験を基盤に、公開制作物と技術背景を整理しています。</p>
+        <p class="hero-text">業務系・基幹系・組込み・DB・データ移行を横断してきたシステムエンジニアとして、現在は実務課題をツール化する制作に取り組んでいます。最初の公開制作物として、Spring Boot向けコード品質診断ツール「Q-Scout for Spring」を公開しています。</p>
         <ul class="hero-points" aria-label="主要訴求">
+          <li>公開制作物</li>
           <li>Spring品質診断</li>
           <li>レビュー支援</li>
-          <li>Markdownレポート</li>
-          <li>Live Demo公開中</li>
-          <li>GitHub公開中</li>
+          <li>業務システム経験</li>
+          <li>AI/Web時代への再接続</li>
         </ul>
         <div class="hero-actions">
-          <a class="button primary" href="https://q-scout-for-spring.onrender.com/">Live Demo</a>
-          <a class="button secondary" href="https://github.com/yamaguchiyoshishigeai-create/Q-Scout-for-Spring">GitHub Repository</a>
+          <a class="button primary" href="#works">公開制作物を見る</a>
+          <a class="button secondary" href="#featured-project">Q-Scoutの詳細を見る</a>
         </div>
-        <p class="service-note">Render Freeプランで公開しているため、初回アクセス時は起動に時間がかかる場合があります。</p>
       </div>
     </section>
 
-    <section id="featured-project" class="section featured-project panel">
+    <section id="works" class="section panel">
       <div class="section-heading">
-        <p class="eyebrow">Featured Project</p>
+        <p class="eyebrow">Works</p>
+        <h2>公開制作物</h2>
+        <p>公開可能な制作物を、今後3〜4件程度まで無理なく追加できる一覧領域です。各制作物は「何を解決するか」「技術」「公開状態」「Live Demo / GitHub」の導線を揃えて掲載します。</p>
+      </div>
+      <div class="works-grid">
+        <article class="work-card work-card-featured">
+          <div class="work-meta"><span>公開中</span><span>Developer Tool</span></div>
+          <h3>Q-Scout for Spring</h3>
+          <p>Spring Boot / Spring Framework向けのコード品質診断ツール。設計健全性とSpringベストプラクティス準拠度をスコア化し、Markdownレポートで可視化します。</p>
+          <p class="tags">Java / Spring Boot / Maven / Docker / Markdown / Render</p>
+          <div class="hero-actions compact-actions">
+            <a class="button primary" href="https://q-scout-for-spring.onrender.com/">Live Demo</a>
+            <a class="button secondary" href="https://github.com/yamaguchiyoshishigeai-create/Q-Scout-for-Spring">GitHub</a>
+          </div>
+          <p class="service-note">Render Freeプランで公開しているため、初回アクセス時は起動に時間がかかる場合があります。</p>
+        </article>
+        <article class="work-card work-card-planned">
+          <div class="work-meta"><span>準備中</span><span>Web / AI</span></div>
+          <h3>Next Work 01</h3>
+          <p>AI/Web学習成果物や業務改善系ツールを追加するための枠です。公開可能になった段階で、概要・技術・Live Demo・GitHubを同じ形式で掲載します。</p>
+        </article>
+        <article class="work-card work-card-planned">
+          <div class="work-meta"><span>準備中</span><span>Utility</span></div>
+          <h3>Next Work 02</h3>
+          <p>データ変換、診断、レポート生成など、実務経験と接続しやすい小規模ツールを追加するための枠です。</p>
+        </article>
+        <article class="work-card work-card-planned">
+          <div class="work-meta"><span>準備中</span><span>Case Study</span></div>
+          <h3>Next Work 03</h3>
+          <p>制作物が増えた際に、代表的な成果物を最大4件程度まで並べられるようにした拡張枠です。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="featured-project" class="section featured-project">
+      <div class="section-heading">
+        <p class="eyebrow">Featured Work Detail</p>
         <h2>Spring開発の品質判断を、レビューしやすい形に整理する。</h2>
       </div>
       <div class="featured-card">
@@ -65,7 +102,7 @@
       </div>
     </section>
 
-    <section id="why" class="section">
+    <section id="why" class="section panel">
       <div class="section-heading">
         <p class="eyebrow">Why I Built It</p>
         <h2>職務経歴を並べるだけではなく、実務課題をツール化できることを示す。</h2>
@@ -77,7 +114,7 @@
       </div>
     </section>
 
-    <section id="capabilities" class="section panel">
+    <section id="capabilities" class="section">
       <div class="section-heading">
         <p class="eyebrow">Capabilities</p>
         <h2>提供できる価値</h2>
@@ -89,10 +126,10 @@
       </div>
     </section>
 
-    <section id="background" class="section">
+    <section id="background" class="section panel">
       <div class="section-heading">
         <p class="eyebrow">Technical Background</p>
-        <h2>Q-Scoutを支える技術背景</h2>
+        <h2>公開制作物を支える技術背景</h2>
       </div>
       <div class="skill-groups compact-skills">
         <div><h3>現在の主な制作軸</h3><p class="tags">Java / Spring Boot / Maven / Docker / HTML / CSS / JavaScript / Markdown / GitHub / Render</p></div>
@@ -101,7 +138,7 @@
       </div>
     </section>
 
-    <section id="career" class="section panel">
+    <section id="career" class="section">
       <div class="section-heading">
         <p class="eyebrow">Career Highlights</p>
         <h2>実務経験は、制作物の信頼性を補強する背景として整理します。</h2>
@@ -114,12 +151,12 @@
       </div>
     </section>
 
-    <section id="contact" class="section contact">
+    <section id="contact" class="section contact panel">
       <div class="section-heading">
         <p class="eyebrow">Contact</p>
         <h2>制作物・技術経歴の詳細</h2>
       </div>
-      <p>Q-Scout for Spring の実働デモとソースコード、その他の公開情報は GitHub から確認できます。</p>
+      <p>公開制作物、技術経歴、ソースコードは GitHub から確認できます。</p>
       <div class="hero-actions center-actions">
         <a class="button primary" href="https://github.com/yamaguchiyoshishigeai-create/Q-Scout-for-Spring">Q-Scout Repository</a>
         <a class="button secondary" href="https://github.com/yamaguchiyoshishigeai-create">GitHub Profile</a>
