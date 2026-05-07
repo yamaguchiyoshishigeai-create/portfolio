@@ -31,15 +31,15 @@
         <p class="lead">公開制作物を中心に、技術背景と実務経験を整理したポートフォリオです。</p>
         <div class="hero-stats" aria-label="portfolio highlights">
           <div><strong>30+ years</strong><span>システム開発経験</span></div>
-          <div><strong>Public Work</strong><span>Q-Scout for Spring</span></div>
+          <div><strong>2 Works</strong><span>Q-Scout / APIM for Spring</span></div>
           <div><strong>Works First</strong><span>制作物を先に確認</span></div>
         </div>
-        <p class="hero-text">制作物を先に確認できる構成にしています。現在は、Spring Boot向けコード品質診断ツール「Q-Scout for Spring」を公開しています。業務系・基幹系・組込み・DB・データ移行を横断してきた経験は、その下で制作物を支える背景として整理しています。</p>
+        <p class="hero-text">制作物を先に確認できる構成にしています。現在は、Spring Boot向けコード品質診断ツール「Q-Scout for Spring」と、自然言語の業務要件からAPI設計・MCP設計を生成する「APIM for Spring」を掲載しています。業務系・基幹系・組込み・DB・データ移行を横断してきた経験は、その下で制作物を支える背景として整理しています。</p>
         <ul class="hero-points" aria-label="主要訴求">
           <li>公開制作物</li>
           <li>Spring品質診断</li>
+          <li>API/MCP設計生成</li>
           <li>レビュー支援</li>
-          <li>業務システム経験</li>
           <li>AI/Web時代への再接続</li>
         </ul>
         <div class="hero-actions">
@@ -67,10 +67,15 @@
           </div>
           <p class="service-note">Render Freeプランで公開しているため、初回アクセス時は起動に時間がかかる場合があります。</p>
         </article>
-        <article class="work-card work-card-planned">
-          <div class="work-meta"><span>準備中</span><span>Web / AI</span></div>
-          <h3>Next Work 01</h3>
-          <p>AI/Web学習成果物や業務改善系ツールを追加するための枠です。公開可能になった段階で、概要・技術・Live Demo・GitHubを同じ形式で掲載します。</p>
+        <article class="work-card">
+          <div class="work-meta"><span>開発中</span><span>Design Tool</span></div>
+          <h3>APIM for Spring</h3>
+          <p>自然言語の業務要件から、Spring向けREST API設計とMCP設計を同時生成する設計支援Webツールです。API設計書、MCP設計書、API/MCP対応表、Spring Controller雛形、AI実装指示書の生成を対象にしています。</p>
+          <p class="tags">Java 17 / Spring Boot / Thymeleaf / Maven Wrapper / Markdown / MCP Design</p>
+          <div class="hero-actions compact-actions">
+            <a class="button secondary" href="https://github.com/yamaguchiyoshishigeai-create/api-mcp-blueprint-for-spring">GitHub</a>
+          </div>
+          <p class="service-note">現時点では設計生成MVPとして整理中です。完全動作するMCPサーバーや外部LLM API連携は対象外です。</p>
         </article>
         <article class="work-card work-card-planned">
           <div class="work-meta"><span>準備中</span><span>Utility</span></div>
@@ -115,8 +120,8 @@
       </div>
       <div class="narrative-grid">
         <article class="narrative-card"><h3>レビュー品質のばらつきを減らす</h3><p>長期の業務システム開発では、レビュー観点が担当者や現場に依存しやすい課題があります。Q-Scoutでは、Spring開発で確認したい観点をルールとして整理し、チームで共有しやすい形にしています。</p></article>
-        <article class="narrative-card"><h3>技術負債を早期に見える化する</h3><p>設計劣化やアンチパターンは、障害や改修難度として後から表面化しがちです。スコアとMarkdownレポートにより、改善の優先順位を話し合うための材料を提供します。</p></article>
-        <article class="narrative-card"><h3>AI活用に接続しやすくする</h3><p>AIに相談しやすいMarkdown入力を別ファイルとして扱うことで、人間のレビューとAI支援を混在させず、用途ごとに整理されたアウトプットを目指しています。</p></article>
+        <article class="narrative-card"><h3>要件から設計への変換を支援する</h3><p>APIM for Springでは、自然言語の業務要件をAPI設計・MCP設計・AI実装指示へ展開する流れを整理し、AI時代の設計初動を支援することを狙っています。</p></article>
+        <article class="narrative-card"><h3>AI活用に接続しやすくする</h3><p>人間向けの設計成果物とAI実装入力を分けて扱うことで、人間のレビューとAI支援を混在させず、用途ごとに整理されたアウトプットを目指しています。</p></article>
       </div>
     </section>
 
@@ -128,7 +133,7 @@
       <div class="cards grid-3">
         <article class="card"><h3>業務システム改善</h3><p>業務データ連携、既存システム改修、運用支援、データ移行など、現場継続性を重視した改善に対応します。</p></article>
         <article class="card"><h3>品質診断・レビュー支援</h3><p>レビュー観点、設計健全性、保守性、技術負債を、開発者が共有しやすい形式へ整理します。</p></article>
-        <article class="card"><h3>AI/Web時代への再接続</h3><p>長年の実装・設計経験を、Web公開、開発者ツール、AI相談用ドキュメント生成へ展開します。</p></article>
+        <article class="card"><h3>API/MCP設計生成支援</h3><p>業務要件からAPI設計、MCP設計、AI実装指示へつなげる設計初動の整理を支援します。</p></article>
       </div>
     </section>
 
@@ -138,7 +143,7 @@
         <h2>公開制作物を支える技術背景</h2>
       </div>
       <div class="skill-groups compact-skills">
-        <div><h3>現在の主な制作軸</h3><p class="tags">Java / Spring Boot / Maven / Docker / HTML / CSS / JavaScript / Markdown / GitHub / Render</p></div>
+        <div><h3>現在の主な制作軸</h3><p class="tags">Java / Spring Boot / Maven / Thymeleaf / Docker / HTML / CSS / JavaScript / Markdown / GitHub / Render / MCP</p></div>
         <div><h3>実務で培った基盤</h3><p class="tags">C / C++ / C# / Java / JavaScript / VB / VBA / Delphi / SQL / Bash / Oracle / PostgreSQL / SQL Server</p></div>
         <div><h3>対応工程</h3><p class="tags">要件定義 / 基本設計 / 詳細設計 / 実装 / 単体テスト / 結合テスト / 総合テスト / リリース対応 / 運用保守 / データ移行</p></div>
       </div>
@@ -165,6 +170,7 @@
       <p>公開制作物、技術経歴、ソースコードは GitHub から確認できます。</p>
       <div class="hero-actions center-actions">
         <a class="button primary" href="https://github.com/yamaguchiyoshishigeai-create/Q-Scout-for-Spring">Q-Scout Repository</a>
+        <a class="button secondary" href="https://github.com/yamaguchiyoshishigeai-create/api-mcp-blueprint-for-spring">APIM Repository</a>
         <a class="button secondary" href="https://github.com/yamaguchiyoshishigeai-create">GitHub Profile</a>
       </div>
     </section>
