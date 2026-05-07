@@ -78,9 +78,9 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
 .grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .card, .work-card { background: #102a4c; border: 1px solid rgba(125, 211, 252, 0.24); border-radius: 24px; padding: 28px; box-shadow: 0 20px 55px rgba(2, 8, 23, 0.28); }
 .panel .card { background: #12345d; }
-.works-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); align-items: stretch; }
+.works-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: stretch; }
 .work-card { display: flex; flex-direction: column; min-height: 100%; }
-.work-card-featured { grid-column: span 2; background: linear-gradient(135deg, #0b3b68, #102a4c 58%, #0f172a); border-color: rgba(125, 211, 252, 0.55); }
+.work-card-featured { background: linear-gradient(135deg, #0b3b68, #102a4c 58%, #0f172a); border-color: rgba(125, 211, 252, 0.55); }
 .work-card-planned { background: #0d2544; opacity: 0.92; }
 .work-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
 .work-meta span { border: 1px solid rgba(125, 211, 252, 0.55); border-radius: 999px; padding: 4px 10px; color: #bae6fd; background: rgba(14, 116, 144, 0.24); font-size: 0.82rem; font-weight: 800; }
@@ -98,17 +98,11 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
 .contact .section-heading { margin-inline: auto; }
 .contact p { max-width: 720px; margin-inline: auto; color: #b6d8f6; }
 .site-footer { padding: 32px 7vw; color: #b6d8f6; border-top: 1px solid rgba(125, 211, 252, 0.20); background: #071426; }
-@media (max-width: 1100px) {
-  .works-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .work-card-featured { grid-column: span 2; }
-  .hero-stats { grid-template-columns: 1fr; }
-}
 @media (max-width: 900px) {
   body { font-size: 16px; line-height: 1.9; }
   .site-header { align-items: flex-start; flex-direction: column; position: static; }
   .site-nav { gap: 12px; font-size: 0.92rem; }
   .grid-3, .grid-2, .feature-grid, .narrative-grid, .works-grid { grid-template-columns: 1fr; }
-  .work-card-featured { grid-column: span 1; }
   .section { padding: 64px 7vw; }
   .hero { min-height: auto; padding-top: 72px; }
   .portfolio-label { width: min(96vw, 680px); height: clamp(150px, 44vw, 300px); }
