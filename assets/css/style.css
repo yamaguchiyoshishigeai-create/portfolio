@@ -46,7 +46,9 @@ a { color: inherit; text-decoration: none; }
   line-height: 1;
   overflow: hidden;
   background: url("../img/name_calligraphy.webp") center / contain no-repeat;
-  filter: drop-shadow(0 0 22px rgba(186, 230, 253, 0.22));
+  mix-blend-mode: screen;
+  opacity: 0.96;
+  filter: contrast(1.08) brightness(1.08) drop-shadow(0 0 18px rgba(186, 230, 253, 0.18));
 }
 .identity-subtitle { display: block; margin-bottom: 22px; color: #7dd3fc; font-size: clamp(1.1rem, 2vw, 1.6rem); font-weight: 800; letter-spacing: 0.05em; }
 .eyebrow { color: #7dd3fc; font-weight: 800; letter-spacing: 0.13em; text-transform: uppercase; font-size: 0.8rem; }
