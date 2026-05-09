@@ -22,3 +22,12 @@
 ## 初期対象
 
 初期版は、HTML / CSS / JavaScript による1ページ完結型の静的サイトとし、GitHub Pagesでの公開を想定します。
+
+
+## 共通運用ルール正本
+
+共通運用ルールの正本は `yamaguchiyoshishigeai-create/chatgpt-ops-rules` です。
+
+portfolio固有の公開安全性方針、静的サイト仕様、GitHub Pages公開前提、Works掲載方針、改善タスク管理は本リポジトリ側で管理します。
+
+中枢参照方針は `00_プロジェクト管理/05_横断運用規程/chatgpt-ops-rules中枢参照方針.md` を参照してください。
