@@ -108,12 +108,20 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
   border-radius: 18px;
   background: rgba(125, 167, 227, 0.26);
 }
-.work-action-block { min-height: 16rem; align-content: space-between; }
+.work-action-block { min-height: 17.5rem; align-content: space-between; }
 .work-tech-block { min-height: 7.4rem; align-content: center; }
 .work-notes { min-height: 6.2rem; align-content: center; }
 .work-description p,
 .work-tech-block p,
 .work-notes p { margin: 0; }
+.work-description { display: grid; gap: 0.85rem; }
+.work-tool-label {
+  color: #e0f2fe !important;
+  font-size: clamp(1.22rem, 1.55vw, 1.45rem);
+  line-height: 1.35;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+}
 .work-action-block .compact-actions { margin: 0; justify-content: flex-start; }
 .service-note { margin-block: 0; font-size: 0.92rem; color: #b6d8f6; }
 .service-note-warning { color: #f87171 !important; font-weight: 800; }
