@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Q-Scout for Spring | 山口 能成 Portfolio</title>
+  <meta name="description" content="Q-Scout for Spring の制作背景、設計判断、機能、技術スタック、今後の拡張方針を整理した詳細ページです。">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html#top">山口 能成 Portfolio</a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="../index.html#works">Works</a>
+      <a href="q-scout.html">Q-Scout</a>
+      <a href="apim.html">APIM</a>
+      <a href="../index.html#background">Background</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">Work Detail / Developer Tool</p>
+        <h1>Q-Scout for Spring</h1>
+        <p class="lead">Spring Frameworkシステム コード品質診断ツール</p>
+        <p class="hero-text">Spring Boot / Spring Framework向けのコード品質診断ツールです。設計健全性とSpringベストプラクティス準拠度をスコア化し、Markdownレポートで可視化します。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://q-scout-for-spring.onrender.com/">Live Demo</a>
+          <a class="button secondary" href="https://github.com/yamaguchiyoshishigeai-create/Q-Scout-for-Spring">GitHub</a>
+          <a class="button secondary" href="../index.html#works">Worksへ戻る</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section panel">
+      <div class="section-heading">
+        <p class="eyebrow">Purpose</p>
+        <h2>レビュー観点のばらつきを、共有可能な診断結果へ変換する。</h2>
+      </div>
+      <div class="narrative-grid">
+        <article class="narrative-card">
+          <h3>制作背景</h3>
+          <p>長期運用される業務システムでは、コードレビューの観点が担当者の経験や現場ごとの暗黙知に寄りやすくなります。Q-Scoutは、Spring開発で繰り返し確認したい品質観点をツールとして明文化し、レビュー前の共通土台を作るために制作しました。</p>
+        </article>
+        <article class="narrative-card">
+          <h3>解決したい課題</h3>
+          <p>技術負債や設計劣化は、障害や改修遅延として表面化するまで見過ごされることがあります。診断結果をスコアとMarkdownで残すことで、改善対象をチームで確認しやすくし、判断の属人化を減らすことを狙っています。</p>
+        </article>
+        <article class="narrative-card">
+          <h3>設計判断</h3>
+          <p>AI APIに依存しなくても診断価値が成立するよう、ルールベース診断と人間向けレポートを中心に置いています。AI相談用のMarkdownは補助入力として扱い、レビュー担当者が判断しやすい粒度で結果を整理します。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Features</p>
+        <h2>主な機能と技術構成</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-item">
+          <h3>品質診断</h3>
+          <p>Springプロジェクトの構成や実装を確認し、設計健全性、保守性、Springベストプラクティスに関わる観点を診断します。</p>
+        </article>
+        <article class="feature-item">
+          <h3>スコアリング</h3>
+          <p>診断結果を点数化し、状態を比較しやすくします。レビュー前後や改善作業後の変化を追いやすい形にすることを重視しています。</p>
+        </article>
+        <article class="feature-item">
+          <h3>Markdownレポート</h3>
+          <p>人間が確認するレポートとAI相談用の入力をMarkdownで整理し、改善方針の共有や次の作業への接続をしやすくします。</p>
+        </article>
+        <article class="feature-item">
+          <h3>技術スタック</h3>
+          <p>Java / Spring Boot / Maven / Docker / Markdown / Render を中心に、Web UIと分析フローを構成しています。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section panel">
+      <div class="section-heading">
+        <p class="eyebrow">Roadmap</p>
+        <h2>今後の拡張方針</h2>
+      </div>
+      <div class="cards grid-3">
+        <article class="card">
+          <h3>診断観点の拡張</h3>
+          <p>Controller、Service、Repository、設定、例外処理など、Spring開発で品質差が出やすい領域の診断観点を増やします。</p>
+        </article>
+        <article class="card">
+          <h3>レポート改善</h3>
+          <p>改善優先度、影響範囲、修正方針をより読み取りやすくし、レビュー会話や改善チケットへ転記しやすい形式に整えます。</p>
+        </article>
+        <article class="card">
+          <h3>AI相談連携</h3>
+          <p>診断結果をAI相談へ渡しやすい粒度に整理し、人間のレビュー判断を残したまま実装改善の相談につなげる構成を強化します。</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Yoshishige Yamaguchi. Portfolio.</p>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
