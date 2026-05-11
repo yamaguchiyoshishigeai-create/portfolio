@@ -83,12 +83,12 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
 .work-card {
   display: grid;
   grid-template-rows:
-    minmax(32px, auto)
-    minmax(3.3em, auto)
-    minmax(10.8em, auto)
-    minmax(48px, auto)
-    minmax(4.8em, auto)
-    minmax(4.6em, auto);
+    minmax(3.2rem, auto)
+    minmax(4.2rem, auto)
+    auto 
+    auto 
+    auto;
+  row-gap: 1.15rem;
   min-height: 100%;
   align-items: start;
 }
@@ -97,12 +97,58 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
 .work-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
 .work-meta span { border: 1px solid rgba(125, 211, 252, 0.55); border-radius: 999px; padding: 4px 10px; color: #bae6fd; background: rgba(14, 116, 144, 0.24); font-size: 0.82rem; font-weight: 800; }
 .work-card > .work-meta { grid-row: 1; align-content: flex-start; }
-.work-card > h3 { grid-row: 2; margin-bottom: 0; }
+.work-card > h3 {
+  grid-row: 2; 
+  margin: 0;
+  align-self: start; 
+}
 .work-card > p:not(.tags):not(.service-note) { grid-row: 3; margin-block: 0; }
-.work-card > .compact-actions { grid-row: 4; align-self: start; margin-top: 0; justify-content: flex-start; }
+.work-card > .compact-actions {
+  grid-row: 4;
+  align-self: start;
+  margin: 0 0 2.0rem;
+  justify-content: flex-start;
+}
 .work-card > .tags { grid-row: 5; margin-block: 0; }
-.work-card > .work-notes { grid-row: 6; display: grid; gap: 0.25rem; align-content: start; }
-.work-card > .service-note { grid-row: 6; margin-block: 0; }
+.work-card > .work-action-block {
+  grid-row: 3;
+  display: grid;
+  gap: 1.15rem;
+  padding: 1.2rem 1.25rem;
+  min-height: 17rem;
+  border: 1px solid rgba(125, 211, 252, 0.18);
+  border-radius: 18px;
+  background: rgba(125, 167, 227, 0.26);
+}
+.work-card > .work-tech-block {
+  grid-row: 4;
+  display: grid;
+  gap: 1.15rem;
+  padding: 1.2rem 1.25rem;
+  min-height: 6.4rem;
+  border: 1px solid rgba(125, 211, 252, 0.18);
+  border-radius: 18px;
+  background: rgba(125, 167, 227, 0.26);
+}
+.work-card > .work-notes {
+  grid-row: 5;
+  display: grid;
+  gap: 1.15rem;
+  padding: 1.2rem 1.25rem;
+  border: 1px solid rgba(125, 211, 252, 0.18);
+  border-radius: 18px;
+  background: rgba(125, 167, 227, 0.26);
+}
+
+.work-description p {
+  margin: 0;
+}
+
+.work-action-block .compact-actions {
+  margin: 0;
+}
+
+
 .featured-project { background: #071426; }
 .featured-card { display: grid; gap: 28px; }
 .featured-summary { max-width: 980px; }
