@@ -73,6 +73,7 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
 .panel { background: #0b1f3a; border-block: 1px solid rgba(125, 211, 252, 0.20); }
 .section-heading { max-width: 920px; margin-bottom: 36px; }
 .section-heading p { color: #b6d8f6; }
+.section-heading .service-note-warning { margin-top: 10px; }
 .cards, .works-grid { display: grid; gap: 22px; }
 .grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
