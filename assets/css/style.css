@@ -108,7 +108,7 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
   border-radius: 18px;
   background: rgba(125, 167, 227, 0.26);
 }
-.work-action-block { min-height: 17.5rem; align-content: space-between; }
+.work-action-block { min-height: 22rem; align-content: space-between; }
 .work-tech-block { min-height: 7.4rem; align-content: center; }
 .work-notes { min-height: 6.2rem; align-content: center; }
 .work-description p,
@@ -121,6 +121,10 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
   line-height: 1.35;
   font-weight: 900;
   letter-spacing: 0.02em;
+}
+.work-card-published:not(.work-card-featured) .work-tool-label {
+  padding-left: 2em;
+  text-indent: -2em;
 }
 .work-action-block .compact-actions { margin: 0; justify-content: flex-start; }
 .service-note { margin-block: 0; font-size: 0.92rem; color: #b6d8f6; }
