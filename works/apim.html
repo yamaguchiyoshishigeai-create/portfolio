@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>APIM for Spring | 山口 能成 Portfolio</title>
+  <meta name="description" content="APIM for Spring の制作背景、設計判断、機能、技術スタック、今後の拡張方針を整理した詳細ページです。">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html#top">山口 能成 Portfolio</a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="../index.html#works">Works</a>
+      <a href="q-scout.html">Q-Scout</a>
+      <a href="apim.html">APIM</a>
+      <a href="../index.html#background">Background</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">Work Detail / Design Tool</p>
+        <h1>APIM for Spring</h1>
+        <p class="lead">Spring Frameworkシステム API・MCP設計雛型作成ツール</p>
+        <p class="hero-text">業務要件に該当するチェック項目を選択し、Spring向けREST API設計とMCP設計のたたき台を出力する設計支援Webツールです。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://api-mcp-blueprint-for-spring.onrender.com">Live Demo</a>
+          <a class="button secondary" href="https://github.com/yamaguchiyoshishigeai-create/api-mcp-blueprint-for-spring">GitHub</a>
+          <a class="button secondary" href="../index.html#works">Worksへ戻る</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section panel">
+      <div class="section-heading">
+        <p class="eyebrow">Purpose</p>
+        <h2>要件から設計への初動を、確認しやすい雛型へ変換する。</h2>
+      </div>
+      <div class="narrative-grid">
+        <article class="narrative-card">
+          <h3>制作背景</h3>
+          <p>業務要件からAPI設計へ落とし込む初動では、確認項目の抜けや設計粒度のばらつきが起こりやすくなります。APIMは、要件確認からREST API設計、MCP設計、AI実装指示へ進む流れを一つのWebツールで整理するために制作しました。</p>
+        </article>
+        <article class="narrative-card">
+          <h3>解決したい課題</h3>
+          <p>設計のたたき台がない状態では、関係者間の確認が抽象的になり、実装前の認識合わせに時間がかかります。チェック項目から成果物を生成することで、議論の開始点を具体化し、レビューしやすい設計材料を用意します。</p>
+        </article>
+        <article class="narrative-card">
+          <h3>設計判断</h3>
+          <p>現時点では自然言語入力を前提にせず、業務要件に該当するチェック項目を選択する方式にしています。入力を構造化することで、生成される設計書や実装指示の粒度を確認しやすくし、設計初動のぶれを抑えます。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Features</p>
+        <h2>主な機能と技術構成</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-item">
+          <h3>API設計書生成</h3>
+          <p>選択されたチェック項目をもとに、Spring向けREST API設計のたたき台を生成し、エンドポイントや責務を確認しやすくします。</p>
+        </article>
+        <article class="feature-item">
+          <h3>MCP設計書生成</h3>
+          <p>API利用やAI連携を見据えたMCP設計の初期案を出力し、人間が確認する設計情報とAI利用前提の情報を整理します。</p>
+        </article>
+        <article class="feature-item">
+          <h3>API/MCP対応表と実装指示</h3>
+          <p>API設計、MCP設計、Spring Controller雛形、AI実装指示書をつなげ、設計から実装相談へ進みやすい形式にします。</p>
+        </article>
+        <article class="feature-item">
+          <h3>技術スタック</h3>
+          <p>Java 17 / Spring Boot / Thymeleaf / Maven Wrapper / Markdown / MCP Design / Render を中心に構成しています。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section panel">
+      <div class="section-heading">
+        <p class="eyebrow">Roadmap</p>
+        <h2>今後の拡張方針</h2>
+      </div>
+      <div class="cards grid-3">
+        <article class="card">
+          <h3>自然言語要件入力</h3>
+          <p>自然言語の業務要件から設計を生成する機能は、今後の拡張目標です。まずはチェック項目方式で出力の安定性を確認し、段階的に入力方法を広げます。</p>
+        </article>
+        <article class="card">
+          <h3>設計粒度の改善</h3>
+          <p>生成されるAPI設計、MCP設計、対応表の粒度を見直し、レビュー担当者が不足点や過剰な前提を見つけやすい形に改善します。</p>
+        </article>
+        <article class="card">
+          <h3>AI実装指示の高度化</h3>
+          <p>人間が確認した設計結果を、AIへ渡す実装指示としてより扱いやすく整理し、設計判断と実装作業の接続を強化します。</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Yoshishige Yamaguchi. Portfolio.</p>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
