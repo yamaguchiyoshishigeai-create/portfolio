@@ -91,6 +91,13 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
 .work-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 0; min-height: 46px; align-items: flex-start; }
 .work-meta span { border: 1px solid rgba(125, 211, 252, 0.55); border-radius: 999px; padding: 4px 10px; color: #bae6fd; background: rgba(14, 116, 144, 0.24); font-size: 0.82rem; font-weight: 800; }
 .work-card > h3 { margin: 0; min-height: 3.2rem; display: flex; align-items: flex-start; }
+.work-card-published > h3 {
+  min-height: 4.2rem;
+  font-size: clamp(1.65rem, 2.2vw, 2.15rem);
+  line-height: 1.2;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+}
 .work-action-block,
 .work-tech-block,
 .work-notes {
@@ -133,6 +140,7 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
   .portfolio-label { width: min(96vw, 680px); height: clamp(150px, 44vw, 300px); }
   h1 { white-space: normal; font-size: clamp(2.2rem, 10vw, 3.6rem); }
   .work-card-published { gap: 18px; }
+  .work-card-published > h3 { min-height: auto; }
   .work-meta,
   .work-card > h3,
   .work-action-block,
