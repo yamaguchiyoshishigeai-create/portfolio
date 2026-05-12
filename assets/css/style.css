@@ -131,6 +131,18 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
 }
 .label-indent { display: inline-block; padding-left: 2em; }
 .work-action-block .compact-actions { margin: 0; justify-content: flex-start; }
+.work-card-published .work-action-block .compact-actions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  width: 100%;
+}
+
+.work-card-published .work-action-block .compact-actions .button {
+  width: 100%;
+  padding-inline: 12px;
+  white-space: nowrap;
+}
 .service-note { margin-block: 0; font-size: 0.92rem; color: #b6d8f6; }
 .service-note-warning { color: #f87171 !important; font-weight: 800; }
 .feature-grid, .narrative-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
@@ -154,6 +166,10 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
   h1 { white-space: normal; font-size: clamp(2.2rem, 10vw, 3.6rem); }
   .work-card-published { gap: 18px; }
   .work-card-published > h3 { min-height: auto; }
+
+  .work-card-published .work-action-block .compact-actions {
+    grid-template-columns: 1fr;
+  }
   .work-meta,
   .work-card > h3,
   .work-action-block,
