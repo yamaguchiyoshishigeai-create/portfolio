@@ -274,3 +274,26 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
     margin-left: 0;
   }
 }
+
+.top-hero-lead {
+  max-width: 980px;
+  margin-inline: auto;
+}
+
+.top-hero-lead span {
+  display: inline-block;
+}
+
+.top-hero-lead span + span {
+  margin-left: 0.15em;
+}
+
+@media (max-width: 760px) {
+  .top-hero-lead span {
+    display: block;
+  }
+
+  .top-hero-lead span + span {
+    margin-left: 0;
+  }
+}
