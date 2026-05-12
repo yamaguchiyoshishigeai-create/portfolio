@@ -253,21 +253,16 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
 }
 
 .balanced-copy span {
-  display: inline;
+  display: inline-block;
 }
 
 .balanced-copy span + span {
   margin-left: 0.15em;
 }
 
-@media (max-width: 1180px) {
-  .balanced-copy-step span:first-child {
-    display: block;
-  }
-
-  .balanced-copy-step span:first-child + span {
-    margin-left: 0;
-  }
+.career-hero-lead {
+  max-width: 1120px;
+  margin-inline: auto;
 }
 
 @media (max-width: 760px) {
