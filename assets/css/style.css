@@ -307,14 +307,14 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
 }
 
 .priority-break-copy span {
-  display: inline;
+  display: inline-block;
 }
 
 .why-heading-copy .break-p1 {
   display: block;
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 1500px) {
   .why-heading-copy .break-p2 {
     display: block;
   }
