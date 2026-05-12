@@ -109,7 +109,7 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
   border-radius: 18px;
   background: rgba(125, 167, 227, 0.26);
 }
-.work-action-block { min-height: 22rem; align-content: space-between; }
+.work-action-block { min-height: 18.5rem; align-content: space-between; }
 .work-tech-block { min-height: 7.4rem; align-content: center; }
 .work-notes { min-height: 6.2rem; align-content: center; }
 .work-description {
