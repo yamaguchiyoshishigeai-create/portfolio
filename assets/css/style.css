@@ -297,3 +297,31 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
     margin-left: 0;
   }
 }
+
+#why .section-heading {
+  max-width: 1180px;
+}
+
+.priority-break-copy br {
+  display: none;
+}
+
+.priority-break-copy span {
+  display: inline;
+}
+
+.why-heading-copy .break-p1 {
+  display: block;
+}
+
+@media (max-width: 1180px) {
+  .why-heading-copy .break-p2 {
+    display: block;
+  }
+}
+
+@media (max-width: 760px) {
+  .why-heading-copy .break-p3 {
+    display: block;
+  }
+}
