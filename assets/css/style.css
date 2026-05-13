@@ -302,32 +302,71 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
   max-width: 1180px;
 }
 
-.priority-break-copy br {
-  display: none;
+.priority-break-copy span,
+.why-heading-copy .seg {
+  display: inline;
 }
 
-.priority-break-copy span {
+@media (max-width: 560px) {
+  .why-heading-copy {
+    font-size: clamp(1.72rem, 7.85vw, 2.45rem);
+    line-height: 1.28;
+  }
+
+  .why-heading-copy .seg-1,
+  .why-heading-copy .seg-2,
+  .why-heading-copy .seg-4 {
+    display: block;
+  }
+}
+
+/* WHY heading responsive break refinement for PR #34.
+   Break order:
+   - wide: after seg-3 (AI活用に)
+   - <=1500px: after seg-1
+   - <=720px: after seg-2
+   - <=560px: four-line mobile layout:
+     現場で感じた課題を、
+     レビュー支援・設計生成・
+     AI活用につながる形へ
+     落とし込んでいます。
+*/
+.why-heading-copy .seg {
   display: inline-block;
 }
 
-.why-heading-copy .break-p1 {
-  display: block;
+.why-heading-copy .seg-3::after {
+  content: "\A";
+  white-space: pre;
 }
 
 @media (max-width: 1500px) {
-  .why-heading-copy .break-p2 {
-    display: block;
+  .why-heading-copy .seg-1::after {
+    content: "\A";
+    white-space: pre;
   }
 }
 
 @media (max-width: 720px) {
-  .why-heading-copy .break-p3 {
-    display: block;
+  .why-heading-copy .seg-2::after {
+    content: "\A";
+    white-space: pre;
   }
 }
 
-@media (max-width: 500px) {
-  .why-heading-copy .break-p4 {
+@media (max-width: 560px) {
+  .why-heading-copy .seg-3::after {
+    content: "";
+  }
+
+  .why-heading-copy .seg-1,
+  .why-heading-copy .seg-2,
+  .why-heading-copy .seg-3,
+  .why-heading-copy .seg-4 {
+    display: inline-block;
+  }
+
+  .why-heading-copy .seg-5 {
     display: block;
   }
 }
