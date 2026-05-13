@@ -309,7 +309,7 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
 
 @media (max-width: 560px) {
   .why-heading-copy {
-    font-size: clamp(1.9rem, 8.6vw, 2.75rem);
+    font-size: clamp(1.72rem, 7.85vw, 2.45rem);
     line-height: 1.28;
   }
 
