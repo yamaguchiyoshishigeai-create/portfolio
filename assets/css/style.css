@@ -320,7 +320,7 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 640px) {
   .why-heading-copy .break-p3 {
     display: block;
   }
