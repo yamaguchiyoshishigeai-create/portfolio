@@ -302,32 +302,20 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
   max-width: 1180px;
 }
 
-.priority-break-copy br {
-  display: none;
+.priority-break-copy span,
+.why-heading-copy .seg {
+  display: inline;
 }
 
-.priority-break-copy span {
-  display: inline-block;
-}
-
-.why-heading-copy .break-p1 {
-  display: block;
-}
-
-@media (max-width: 1500px) {
-  .why-heading-copy .break-p2 {
-    display: block;
+@media (max-width: 560px) {
+  .why-heading-copy {
+    font-size: clamp(1.9rem, 8.6vw, 2.75rem);
+    line-height: 1.28;
   }
-}
 
-@media (max-width: 720px) {
-  .why-heading-copy .break-p3 {
-    display: block;
-  }
-}
-
-@media (max-width: 500px) {
-  .why-heading-copy .break-p4 {
+  .why-heading-copy .seg-1,
+  .why-heading-copy .seg-2,
+  .why-heading-copy .seg-4 {
     display: block;
   }
 }
