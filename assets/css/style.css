@@ -72,6 +72,19 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
 .button.secondary { color: #e0f2fe; background: rgba(15, 23, 42, 0.62); }
 .work-action-block .button { flex: 1 1 138px; }
 .panel { background: #0b1f3a; border-block: 1px solid rgba(125, 211, 252, 0.20); }
+
+.value-proposition {
+  background:
+    linear-gradient(180deg, rgba(7, 20, 38, 0.98), rgba(11, 31, 58, 0.98));
+}
+
+.value-cards .card {
+  border-color: rgba(125, 211, 252, 0.34);
+}
+
+.value-cards h3 {
+  color: #f8fbff;
+}
 .section-heading { max-width: 920px; margin-bottom: 36px; }
 .section-heading p { color: #b6d8f6; }
 .section-heading .service-note-warning { margin-top: 10px; }
