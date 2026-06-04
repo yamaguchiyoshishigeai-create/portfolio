@@ -390,3 +390,26 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
   }
 }
 /* END ChatExec managed block: PORTFOLIO-WHY-HEADING-4LINE */
+
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+
+.career-quick-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.career-quick-nav .button {
+  flex: 1 1 180px;
+}

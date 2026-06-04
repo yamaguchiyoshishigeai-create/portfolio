@@ -2,40 +2,100 @@
   {
     "title": "Q-Scout for Spring",
     "summary": "Spring Boot / Spring Framework 向けに、コード品質、設計健全性、Springベストプラクティス準拠度を診断し、Markdownレポートで可視化する制作物。",
-    "technologies": ["Java", "Spring Boot", "Maven", "Docker", "Markdown", "Render"],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Maven",
+      "Docker",
+      "Markdown",
+      "Render"
+    ],
     "links": {
       "demo": "https://q-scout-for-spring.onrender.com/",
       "repository": "https://github.com/yamaguchiyoshishigeai-create/Q-Scout-for-Spring"
     }
   },
   {
+    "title": "APIM for Spring",
+    "summary": "業務要件に該当するチェック項目から、Spring向けREST API設計、MCP設計、API/MCP対応表、Controller雛形、AI実装指示書のたたき台を生成する設計支援Webツール。",
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Thymeleaf",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "MCP",
+      "Render"
+    ],
+    "links": {
+      "demo": "https://api-mcp-blueprint-for-spring.onrender.com",
+      "repository": "https://github.com/yamaguchiyoshishigeai-create/api-mcp-blueprint-for-spring",
+      "detail": "works/apim.html"
+    }
+  },
+  {
     "title": "医薬品業界向けEDI・受発注データ連携",
     "summary": "業界データ交換システムの追加開発、システム更改、データ移行、移行用スクリプト作成を担当。",
-    "technologies": ["Java", "JavaScript", "Oracle", "Bash", "Red Hat Linux"]
+    "technologies": [
+      "Java",
+      "JavaScript",
+      "Oracle",
+      "Bash",
+      "Red Hat Linux"
+    ]
   },
   {
     "title": "製造業向け工程制御・検査・解析",
     "summary": "工程制御、検査、解析、データ収集基盤など、製造現場向けシステム群の開発を担当。",
-    "technologies": ["C#", "C++", "C", "PostgreSQL", "SQL Server"]
+    "technologies": [
+      "C#",
+      "C++",
+      "C",
+      "PostgreSQL",
+      "SQL Server"
+    ]
   },
   {
     "title": "PaaSデータストア基盤",
     "summary": "NoSQLとSQLデータベース間のアクセスドライバ開発を担当。",
-    "technologies": ["C", "PHP", "Cassandra", "MongoDB", "MySQL"]
+    "technologies": [
+      "C",
+      "PHP",
+      "Cassandra",
+      "MongoDB",
+      "MySQL"
+    ]
   },
   {
     "title": "金融機関向け基幹システム改修・運用支援",
     "summary": "帳票、オンライン取引、リスク管理、運用データ診断ツールなどを支援。",
-    "technologies": ["C", "C++", "VC++", "VB", "PL/SQL", "Oracle"]
+    "technologies": [
+      "C",
+      "C++",
+      "VC++",
+      "VB",
+      "PL/SQL",
+      "Oracle"
+    ]
   },
   {
     "title": "組込み機器向けファームウェア",
     "summary": "オーディオ機器、HDMI-CEC制御、リモコン制御などの組込み開発を担当。",
-    "technologies": ["C", "組込みC", "マイコン環境"]
+    "technologies": [
+      "C",
+      "組込みC",
+      "マイコン環境"
+    ]
   },
   {
     "title": "AI/Web学習成果物",
     "summary": "AI×Webクリエイター領域の学習成果を今後追加予定。",
-    "technologies": ["AI Tools", "HTML", "CSS", "JavaScript"]
+    "technologies": [
+      "AI Tools",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
   }
 ]
