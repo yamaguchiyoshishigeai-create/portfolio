@@ -53,3 +53,38 @@
 軽量エラー履歴の受け口は `docs/00_プロジェクト管理/06_運用改善ログ/` に配置します。
 
 共通運用ルールおよび軽量エラー履歴の詳細ルールは `yamaguchiyoshishigeai-create/chatgpt-ops-rules` を正本とし、本リポジトリ側には公開ポートフォリオ作業で使う空の受け口と導線のみを保持します。APIMやQ-Scoutなど他リポジトリ固有の実ログは持ち込みません。
+
+
+## ローカルプレビュー
+
+静的サイトとして、任意の簡易HTTPサーバーで確認できます。
+
+```bash
+python3 -m http.server 8000
+```
+
+ブラウザで `http://localhost:8000/` を開き、トップページ、`career.html`、`works/q-scout.html`、`works/apim.html` を確認します。
+
+Windows環境で `python3` が使えない場合は、以下を使用します。
+
+```powershell
+py -m http.server 8000
+```
+
+## 公開前確認
+
+公開前には最低限、以下を確認します。
+
+```bash
+grep -R "<<<<<<<\|=======\|>>>>>>>" .
+python3 -m json.tool data/projects.json > /dev/null
+git diff --check
+```
+
+確認観点:
+
+- Git競合マーカーが残っていないこと
+- `data/projects.json` がJSONとして妥当であること
+- トップページのWorks、Career、Contact導線が表示できること
+- 外部リンク、内部詳細ページリンクが意図したURLへ遷移すること
+- 住所・電話番号などの個人情報を公開ページへ追加していないこと
