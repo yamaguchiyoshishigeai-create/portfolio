@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>APIM for Spring | 山口 能成 Portfolio</title>
-  <meta name="description" content="APIM for Spring の制作背景、設計判断、機能、技術スタック、今後の拡張方針を整理した詳細ページです。">
+  <meta name="description" content="APIM for Spring の制作背景、実務価値、評価ポイント、機能、技術スタック、今後の拡張方針を整理した詳細ページです。">
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
@@ -51,6 +51,28 @@
         <article class="narrative-card">
           <h3>設計判断</h3>
           <p>現時点では自然言語入力を前提にせず、業務要件に該当するチェック項目を選択する方式にしています。入力を構造化することで、生成される設計書や実装指示の粒度を確認しやすくし、設計初動のぶれを抑えます。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Business Value</p>
+        <h2>採用担当者・面談担当者向けの評価ポイント</h2>
+        <p>業務要件を実装へ進める前段階で、API設計、MCP設計、対応表、Controller雛形、AI実装指示書を一連の成果物として整理する制作物です。</p>
+      </div>
+      <div class="cards grid-3">
+        <article class="card">
+          <h3>要件から設計への初動を具体化</h3>
+          <p>抽象的な要件確認で止まりやすい初期段階を、チェック項目方式によりAPI設計のたたき台へ変換します。</p>
+        </article>
+        <article class="card">
+          <h3>人間レビューを前提にした生成</h3>
+          <p>自然言語の一括生成ではなく、構造化された選択入力により、レビュー担当者が不足点や過剰な前提を確認しやすい形式を重視しています。</p>
+        </article>
+        <article class="card">
+          <h3>AI実装支援への接続</h3>
+          <p>API/MCP対応表やAI実装指示書を出力対象に含め、設計判断を人間が確認したうえでAI実装相談へ渡せる流れを作っています。</p>
         </article>
       </div>
     </section>

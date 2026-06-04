@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Q-Scout for Spring | 山口 能成 Portfolio</title>
-  <meta name="description" content="Q-Scout for Spring の制作背景、設計判断、機能、技術スタック、今後の拡張方針を整理した詳細ページです。">
+  <meta name="description" content="Q-Scout for Spring の制作背景、実務価値、評価ポイント、機能、技術スタック、今後の拡張方針を整理した詳細ページです。">
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
@@ -51,6 +51,28 @@
         <article class="narrative-card">
           <h3>設計判断</h3>
           <p>AI APIに依存しなくても診断価値が成立するよう、ルールベース診断と人間向けレポートを中心に置いています。AI相談用のMarkdownは補助入力として扱い、レビュー担当者が判断しやすい粒度で結果を整理します。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Business Value</p>
+        <h2>採用担当者・面談担当者向けの評価ポイント</h2>
+        <p>単なるサンプルアプリではなく、長期運用されるSpring系業務システムで起こりやすいレビュー課題を、診断・可視化・共有の流れに落とし込んだ制作物です。</p>
+      </div>
+      <div class="cards grid-3">
+        <article class="card">
+          <h3>レビュー観点の標準化</h3>
+          <p>経験者の暗黙知に寄りやすい設計健全性、責務分離、Springベストプラクティスの確認観点を、チームで共有できる診断項目として整理しています。</p>
+        </article>
+        <article class="card">
+          <h3>改善対象の可視化</h3>
+          <p>診断結果をスコアとMarkdownレポートに変換し、改善優先度や次のレビュー会話へつなげやすい形式にしています。</p>
+        </article>
+        <article class="card">
+          <h3>AI活用前提の出力設計</h3>
+          <p>AI APIに依存せず、人間が確認できるレポートを中心にしながら、AI相談へ渡しやすいMarkdown入力も生成できる構成にしています。</p>
         </article>
       </div>
     </section>
