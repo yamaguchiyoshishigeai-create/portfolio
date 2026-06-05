@@ -75,7 +75,7 @@ py -m http.server 8000
 
 表示確認スクリーンショットは、ポートフォリオ本体へ大きく掲載する装飾画像ではなく、応募・面談・保守確認で主要画面を説明しやすくするための確認資料として扱います。
 
-保存先は `docs/80_リリース/10_表示確認スクリーンショット/` とし、画像ファイルを追加した後にREADMEから相対パスで参照します。現時点では配置方針と命名規則のみを定義し、実画像はブラウザ表示確認後に追加します。
+保存先は `docs/80_リリース/10_表示確認スクリーンショット/` とし、READMEから相対パスで参照します。実画像はブラウザ枠を含めず、主要な訴求箇所が読める範囲で取得しています。
 
 推奨取得対象:
 
@@ -88,21 +88,20 @@ py -m http.server 8000
 | `career-representative-summary.png` | Career 詳細 代表案件サマリー | 代表案件4領域が一覧できること |
 | `career-timeline-tags.png` | Career 詳細 主要職務経歴 | 業務領域・担当役割・主要技術タグが見えること |
 
-READMEに画像を掲載する場合は、画像追加後に以下の形式で追記します。
+READMEには、主要な確認画像を以下の形式で掲載します。
 
-```markdown
+### Top / Hero
+
+![Top Hero](docs/80_リリース/10_表示確認スクリーンショット/top-hero.png)
+
 ### Top / Value Proposition
 
 ![Top Value Proposition](docs/80_リリース/10_表示確認スクリーンショット/top-value-proposition.png)
 
-### Works / Q-Scout Business Value
-
-![Q-Scout Business Value](docs/80_リリース/10_表示確認スクリーンショット/works-q-scout-business-value.png)
-
 ### Career / Timeline Tags
 
 ![Career Timeline Tags](docs/80_リリース/10_表示確認スクリーンショット/career-timeline-tags.png)
-```
+
 
 詳細な命名規則と運用方針は `docs/80_リリース/10_表示確認スクリーンショット/README.md` を参照してください。
 
