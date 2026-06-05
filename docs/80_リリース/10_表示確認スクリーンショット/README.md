@@ -39,9 +39,12 @@
 5. ファイル名を推奨ルールに合わせる
 6. README.mdから相対パスで参照できることを確認する
 
-## README掲載例
+## 掲載画像
 
-```markdown
+### Top / Hero
+
+![Top Hero](docs/80_リリース/10_表示確認スクリーンショット/top-hero.png)
+
 ### Top / Value Proposition
 
 ![Top Value Proposition](docs/80_リリース/10_表示確認スクリーンショット/top-value-proposition.png)
@@ -50,11 +53,15 @@
 
 ![Q-Scout Business Value](docs/80_リリース/10_表示確認スクリーンショット/works-q-scout-business-value.png)
 
+### Works / APIM Business Value
+
+![APIM Business Value](docs/80_リリース/10_表示確認スクリーンショット/works-apim-business-value.png)
+
 ### Career / Timeline Tags
 
 ![Career Timeline Tags](docs/80_リリース/10_表示確認スクリーンショット/career-timeline-tags.png)
-```
+
 
 ## 今後の運用
 
-初回は、表示確認資料として必要な画面だけを追加します。全ページを網羅することよりも、応募・面談で説明価値の高い画面を優先します。
+初回は、表示確認資料として説明価値の高い5画面を追加します。今後は、UI変更時や公開前後の確認時に必要な画面のみ差し替えます。
