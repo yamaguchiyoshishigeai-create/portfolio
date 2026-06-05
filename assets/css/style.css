@@ -85,6 +85,23 @@ h3 { margin-top: 0; line-height: 1.45; color: #dbeafe; }
 .value-cards h3 {
   color: #f8fbff;
 }
+
+/* BEGIN ChatExec managed block: PORTFOLIO-VALUE-HEADING-NOWRAP */
+.value-proposition .section-heading {
+  max-width: min(100%, 1360px);
+}
+
+.value-proposition .section-heading h2 {
+  white-space: nowrap;
+  font-size: clamp(2rem, 3.4vw, 3.05rem);
+}
+
+@media (max-width: 1180px) {
+  .value-proposition .section-heading h2 {
+    white-space: normal;
+  }
+}
+/* END ChatExec managed block: PORTFOLIO-VALUE-HEADING-NOWRAP */
 .section-heading { max-width: 920px; margin-bottom: 36px; }
 .section-heading p { color: #b6d8f6; }
 .section-heading .service-note-warning { margin-top: 10px; }
