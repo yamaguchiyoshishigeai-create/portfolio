@@ -13,7 +13,7 @@
 
 ## 配置ルール
 
-- 画像は `docs/screenshots/` 直下に配置する
+- 画像は `docs/80_リリース/10_表示確認スクリーンショット/` 直下に配置する
 - ファイル名は半角英数字、ハイフン、小文字を基本にする
 - 形式は原則として `.png` とする
 - 個人情報、住所、電話番号、非公開情報、未公開の企業名・顧客名が写り込まないことを確認する
@@ -44,15 +44,15 @@
 ```markdown
 ### Top / Value Proposition
 
-![Top Value Proposition](docs/screenshots/top-value-proposition.png)
+![Top Value Proposition](docs/80_リリース/10_表示確認スクリーンショット/top-value-proposition.png)
 
 ### Works / Q-Scout Business Value
 
-![Q-Scout Business Value](docs/screenshots/works-q-scout-business-value.png)
+![Q-Scout Business Value](docs/80_リリース/10_表示確認スクリーンショット/works-q-scout-business-value.png)
 
 ### Career / Timeline Tags
 
-![Career Timeline Tags](docs/screenshots/career-timeline-tags.png)
+![Career Timeline Tags](docs/80_リリース/10_表示確認スクリーンショット/career-timeline-tags.png)
 ```
 
 ## 今後の運用
