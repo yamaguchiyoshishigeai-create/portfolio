@@ -24,8 +24,8 @@
       <div class="hero-content">
         <p class="eyebrow">Work Detail / Design Tool</p>
         <h1>APIM for Spring</h1>
-        <p class="lead">Spring Frameworkシステム API・MCP設計雛型作成ツール</p>
-        <p class="hero-text">業務要件に該当するチェック項目を選択し、Spring向けREST API設計とMCP設計のたたき台を出力する設計支援Webツールです。</p>
+        <p class="lead">Spring Frameworkシステム API・MCP設計支援ツール</p>
+        <p class="hero-text">自由文またはチェック式入力から、Spring向けREST API設計、MCP設計、外部AI投入用プロンプト、AI実装指示書のたたき台を整理する設計支援Webツールです。</p>
         <div class="hero-actions">
           <a class="button primary" href="https://api-mcp-blueprint-for-spring.onrender.com">Live Demo</a>
           <a class="button secondary" href="https://github.com/yamaguchiyoshishigeai-create/api-mcp-blueprint-for-spring">GitHub</a>
@@ -42,15 +42,15 @@
       <div class="narrative-grid">
         <article class="narrative-card">
           <h3>制作背景</h3>
-          <p>業務要件からAPI設計へ落とし込む初動では、確認項目の抜けや設計粒度のばらつきが起こりやすくなります。APIMは、要件確認からREST API設計、MCP設計、AI実装指示へ進む流れを一つのWebツールで整理するために制作しました。</p>
+          <p>業務要件からAPI設計へ落とし込む初動では、確認項目の抜けや設計粒度のばらつきが起こりやすくなります。APIMは、要件確認からREST API設計、MCP設計、外部AIへ手動投入するための安全なプロンプト、AI実装指示へ進む流れを一つのWebツールで整理するために制作しました。</p>
         </article>
         <article class="narrative-card">
           <h3>解決したい課題</h3>
-          <p>設計のたたき台がない状態では、関係者間の確認が抽象的になり、実装前の認識合わせに時間がかかります。チェック項目から成果物を生成することで、議論の開始点を具体化し、レビューしやすい設計材料を用意します。</p>
+          <p>設計のたたき台がない状態では、関係者間の確認が抽象的になり、実装前の認識合わせに時間がかかります。自由文入力とチェック式入力から成果物を生成することで、議論の開始点を具体化し、レビューしやすい設計材料を用意します。</p>
         </article>
         <article class="narrative-card">
           <h3>設計判断</h3>
-          <p>現時点では自然言語入力を前提にせず、業務要件に該当するチェック項目を選択する方式にしています。入力を構造化することで、生成される設計書や実装指示の粒度を確認しやすくし、設計初動のぶれを抑えます。</p>
+          <p>自由文入力とチェック式入力を併用し、外部AI連携は自動送信ではなく、ユーザーが外部AIへ手動投入するためのプロンプト生成導線として扱います。人間がレビューできる設計成果物と、AI実装相談へ渡す入力を分けて整理することを重視しています。</p>
         </article>
       </div>
     </section>
@@ -59,20 +59,20 @@
       <div class="section-heading">
         <p class="eyebrow">Business Value</p>
         <h2>採用担当者・面談担当者向けの評価ポイント</h2>
-        <p>業務要件を実装へ進める前段階で、API設計、MCP設計、対応表、Controller雛形、AI実装指示書を一連の成果物として整理する制作物です。</p>
+        <p>業務要件を実装へ進める前段階で、API設計、MCP設計、対応表、Controller雛形、外部AI投入用プロンプト、AI実装指示書を一連の成果物として整理する制作物です。</p>
       </div>
       <div class="cards grid-3">
         <article class="card">
           <h3>要件から設計への初動を具体化</h3>
-          <p>抽象的な要件確認で止まりやすい初期段階を、チェック項目方式によりAPI設計のたたき台へ変換します。</p>
+          <p>抽象的な要件確認で止まりやすい初期段階を、自由文入力またはチェック式入力によりAPI設計のたたき台へ変換します。</p>
         </article>
         <article class="card">
           <h3>人間レビューを前提にした生成</h3>
-          <p>自然言語の一括生成ではなく、構造化された選択入力により、レビュー担当者が不足点や過剰な前提を確認しやすい形式を重視しています。</p>
+          <p>自由文入力とチェック式入力を併用しながら、レビュー担当者が不足点や過剰な前提を確認しやすい成果物形式を重視しています。</p>
         </article>
         <article class="card">
           <h3>AI実装支援への接続</h3>
-          <p>API/MCP対応表やAI実装指示書を出力対象に含め、設計判断を人間が確認したうえでAI実装相談へ渡せる流れを作っています。</p>
+          <p>API/MCP対応表、外部AI投入用プロンプト、AI実装指示書を出力対象に含め、設計判断を人間が確認したうえでAI実装相談へ渡せる流れを作っています。</p>
         </article>
       </div>
     </section>
@@ -85,15 +85,15 @@
       <div class="feature-grid">
         <article class="feature-item">
           <h3>API設計書生成</h3>
-          <p>選択されたチェック項目をもとに、Spring向けREST API設計のたたき台を生成し、エンドポイントや責務を確認しやすくします。</p>
+          <p>自由文入力またはチェック式入力をもとに、Spring向けREST API設計のたたき台を生成し、エンドポイントや責務を確認しやすくします。</p>
         </article>
         <article class="feature-item">
           <h3>MCP設計書生成</h3>
           <p>API利用やAI連携を見据えたMCP設計の初期案を出力し、人間が確認する設計情報とAI利用前提の情報を整理します。</p>
         </article>
         <article class="feature-item">
-          <h3>API/MCP対応表と実装指示</h3>
-          <p>API設計、MCP設計、Spring Controller雛形、AI実装指示書をつなげ、設計から実装相談へ進みやすい形式にします。</p>
+          <h3>API/MCP対応表とAI実装支援</h3>
+          <p>API設計、MCP設計、Spring Controller雛形、外部AI投入用プロンプト、AI実装指示書をつなげ、設計から実装相談へ進みやすい形式にします。</p>
         </article>
         <article class="feature-item">
           <h3>技術スタック</h3>
@@ -109,16 +109,16 @@
       </div>
       <div class="cards grid-3">
         <article class="card">
-          <h3>自然言語要件入力</h3>
-          <p>自然言語の業務要件から設計を生成する機能は、今後の拡張目標です。まずはチェック項目方式で出力の安定性を確認し、段階的に入力方法を広げます。</p>
+          <h3>入力例と外部AIブリッジ説明の拡充</h3>
+          <p>自由文入力とチェック式入力の利用例を増やし、外部AIに直接送信する機能ではなく、ユーザーが手動投入するプロンプト生成導線であることを分かりやすく説明します。</p>
         </article>
         <article class="card">
-          <h3>設計粒度の改善</h3>
-          <p>生成されるAPI設計、MCP設計、対応表の粒度を見直し、レビュー担当者が不足点や過剰な前提を見つけやすい形に改善します。</p>
+          <h3>設計成果物の構造改善</h3>
+          <p>生成されるAPI設計、MCP設計、対応表の粒度と構造を見直し、レビュー担当者が不足点や過剰な前提を見つけやすい形に改善します。</p>
         </article>
         <article class="card">
-          <h3>AI実装指示の高度化</h3>
-          <p>人間が確認した設計結果を、AIへ渡す実装指示としてより扱いやすく整理し、設計判断と実装作業の接続を強化します。</p>
+          <h3>生成プロンプトとAI実装指示書の改善</h3>
+          <p>人間が確認した設計結果を、外部AIへ手動投入するプロンプトやAI実装指示書としてレビューしやすく整理し、設計判断と実装作業の接続を強化します。</p>
         </article>
       </div>
     </section>
