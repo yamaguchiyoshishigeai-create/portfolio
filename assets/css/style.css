@@ -56,11 +56,15 @@ h1 { font-size: clamp(2.1rem, 3.4vw, 3.35rem); line-height: 1.16; margin: 0 auto
 .hero-main-heading {
   display: grid;
   gap: 0.08em;
-  justify-items: center;
+  justify-content: center;
+  justify-items: start;
+  width: fit-content;
   max-width: min(100%, 1240px);
+  margin-bottom: clamp(34px, 4vw, 54px);
   white-space: normal;
   font-size: clamp(2.05rem, 3.18vw, 3.18rem);
   line-height: 1.18;
+  text-align: left;
   text-wrap: balance;
 }
 
@@ -70,7 +74,19 @@ h1 { font-size: clamp(2.1rem, 3.4vw, 3.35rem); line-height: 1.16; margin: 0 auto
 }
 
 .hero-main-heading span + span {
-  margin-left: 0;
+  margin-left: clamp(2.4em, 5vw, 3.6em);
+}
+
+@media (max-width: 760px) {
+  .hero-main-heading {
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: clamp(2.05rem, 9vw, 3.15rem);
+  }
+
+  .hero-main-heading span + span {
+    margin-left: clamp(0.8em, 8vw, 1.8em);
+  }
 }
 /* END ChatExec managed block: PORTFOLIO-APLUS-HERO-HEADING-WRAP */
 
