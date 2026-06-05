@@ -17,7 +17,7 @@
   },
   {
     "title": "APIM for Spring",
-    "summary": "業務要件に該当するチェック項目から、Spring向けREST API設計、MCP設計、API/MCP対応表、Controller雛形、AI実装指示書のたたき台を生成する設計支援Webツール。",
+    "summary": "業務要件の自由文入力またはチェック式入力から、Spring向けREST API設計、MCP設計、API/MCP対応表、Controller雛形、外部AI投入用プロンプト、AI実装指示書のたたき台を生成する設計支援Webツール。",
     "technologies": [
       "Java",
       "Spring Boot",
