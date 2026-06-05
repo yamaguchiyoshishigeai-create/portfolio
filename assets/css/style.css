@@ -74,11 +74,13 @@ h1 { font-size: clamp(2.1rem, 3.4vw, 3.35rem); line-height: 1.16; margin: 0 auto
 }
 
 .hero-main-heading span:first-child {
-  margin-left: -3em;
+  margin-left: 0;
+  transform: translateX(-1.8em);
 }
 
 .hero-main-heading span + span {
-  margin-left: clamp(2.4em, 5vw, 3.6em);
+  margin-left: 0;
+  transform: translateX(2.8em);
 }
 
 @media (max-width: 760px) {
